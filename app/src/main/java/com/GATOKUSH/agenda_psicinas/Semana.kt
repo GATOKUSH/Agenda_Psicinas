@@ -12,13 +12,13 @@ class Semana : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_semana)
-       // val btnLunes: Button = findViewById(R.id.btnLunes)
-        //val btnMartes: Button = findViewById(R.id.btnMartes)
-        //val btnMiercoles: Button = findViewById(R.id.btnMiercoles)
-        //val btnJueves: Button = findViewById(R.id.btnJueves)
-        //val btnViernes: Button = findViewById(R.id.btnViernes)
-        //val btnSabado: Button = findViewById(R.id.btnSabado)
-        //val btnListaClientes: Button = findViewById(R.id.btnListaClientes)
+        val btnLunes: Button = findViewById(R.id.btnLunes)
+        val btnMartes: Button = findViewById(R.id.btnMartes)
+        val btnMiercoles: Button = findViewById(R.id.btnMiercoles)
+        val btnJueves: Button = findViewById(R.id.btnJueves)
+        val btnViernes: Button = findViewById(R.id.btnViernes)
+        val btnSabado: Button = findViewById(R.id.btnSabado)
+        val btnListaClientes: Button = findViewById(R.id.btnListaClientes)
 
     }
 }

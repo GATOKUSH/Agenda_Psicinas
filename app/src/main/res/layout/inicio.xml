@@ -6,6 +6,9 @@
     tools:context=".MainActivity">
 
     <!-- TextView para el mensaje de bienvenida -->
+
+    <!-- Botón para comenzar -->
+
     <TextView
         android:id="@+id/txtBienvenido"
         android:layout_width="wrap_content"
@@ -13,34 +16,30 @@
         android:text="Bienvenido Aldo"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/btnComenzar"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="20dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Botón para comenzar -->
     <Button
         android:id="@+id/btnComenzar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="Comenzar"
         android:textSize="18sp"
-        app:layout_constraintTop_toBottomOf="@id/txtBienvenido"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalendario" />
 
     <Button
         android:id="@+id/btnCalendario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="172dp"
+        android:layout_marginTop="16dp"
         android:text="Ver Calendario"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/txtBienvenido" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
